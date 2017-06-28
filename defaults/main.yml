@@ -1,0 +1,4 @@
+---
+
+MAKER_HOME: "/home/MAKER"
+EXONERATE_URL: "http://ftp.ebi.ac.uk/pub/software/vertebrategenomics/exonerate/exonerate-2.4.0.tar.gz"
