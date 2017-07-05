@@ -13,8 +13,11 @@
 
 - name: Install glib2 on CentOS
   package:
-    name: "glib2"
+    name: "{{ item }}"
     state: present
+  with_items:
+    - "glib2"
+    - "glib2-devel"
   when: ansible_distribution == "CentOS"
 
 - name: Download Exonerate
